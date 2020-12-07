@@ -1,15 +1,23 @@
 //Javascript Playground
 
-function buttonFunction() {
-	document.getElementById("message").innerHTML = "Javascript test #2";
+// function buttonFunction() {
+// 	document.getElementById("message").innerHTML = "Javascript test #2";
+// }
+
+
+
+// function colorFunction() {
+// 	document.getElementById("message").style.color= "blue";
+// }
+
+var a = 5;
+var b = 6;
+var c = 6 + 5;
+
+
+function testFunction(){
+	document.getElementById("message").innerHTML = "The total is " + c;
 }
-
-
-
-function colorFunction() {
-	document.getElementById("message").style.color= "blue";
-}
-
 
 //////////////////////////////////////////////////
 
